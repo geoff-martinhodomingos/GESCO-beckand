@@ -1,0 +1,13 @@
+GESCO — Backend inicial para publicação no Render
+
+Este ZIP contém apenas os ficheiros do servidor, organizados com package.json na raiz.
+
+IMPORTANTE:
+- Não substitua nem altere o site actual do GESCO no Netlify.
+- Este backend ainda não está integrado com o frontend e não está pronto para dados reais de alunos.
+- Não crie nem envie um ficheiro .env para o GitHub.
+- As palavras-passe e os segredos devem ser configurados apenas nas variáveis de ambiente do alojamento.
+- Antes de o servidor funcionar, é necessário criar uma base de dados PostgreSQL e executar db/schema.sql.
+- O endpoint /health só deverá indicar database: connected depois de a base de dados estar correctamente configurada.
+
+Este ZIP prepara a estrutura do backend; não publica automaticamente o servidor.
